@@ -38,7 +38,7 @@ This step is optional: there is already file [tello/calibration_parameters.p](te
 Capture camera data, you might want to use keyboard API from
 [tello/DroneControllerTelloDepthDetectWarningClass.py](tello/DroneControllerTelloDepthDetectWarningClass.py).
 Put images in (cas)[calibration/png](calibration/png) folder. 
-Run [ss](calibration/calibration.py). You might want to read [OpenCV camera calibration tutorail](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html).
+Run [calibration/calibration.py](calibration/calibration.py). You might want to read [OpenCV camera calibration tutorail](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html).
 
 ### Running algorithm on drone
 
