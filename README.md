@@ -1,6 +1,6 @@
-###Source codes for paper:
+### Source codes for paper:
 
-#Potential obstacles detection using RGB to depth image  encoder - decoder network: application to Unmanned Aerial Vehicles
+# Potential obstacles detection using RGB to depth image  encoder - decoder network: application to Unmanned Aerial Vehicles
 
 Author: [Tomasz Hachaj](https://sppr.up.krakow.pl/hachaj/)
 
@@ -12,7 +12,7 @@ Pretrained network weights are available to download.
 
 Keywords: Encoder-decoder network; Depth prediction; RGB to depth mapping; obstacles detection; Unmanned Aerial Vehicles; Deep neural network; Tello drone
 
-##Requirements
+## Requirements
 
 Keras >= 2.8, Tensorflow >= 2.8
 
@@ -21,9 +21,9 @@ To run in real time requires CUDA compatible GPU. Setup for [Windows](https://ww
 Tested on: PC, Intel i7-9700 3GHz, 64 GB RAM, NVIDIA GeForce RTX 2060 GPU, Windows 10 OS; 
 DJI Ryze Tello Drone.
 
-##How to run
+## How to run
 
-###Training 
+### Training 
 This step is optional: you can download pretrained weights [102 MB](https://sppr.up.krakow.pl/uav/potentialobstacles/modelOK.h5).
 
 Download [NYU Depth V2 (50K)](https://tinyurl.com/nyu-data-zip) dataset 
@@ -32,7 +32,7 @@ Run [train_v2.py](training/train_v2.py).
 
 On tested hardware setup training for 40 epochs lasted ~53 hours.
 
-###Drone camera calibration
+### Drone camera calibration
 This step is optional: there is already file [tello/calibration_parameters.p](tello/calibration_parameters.p).
 
 Capture camera data, you might want to use keyboard API from
@@ -40,7 +40,7 @@ Capture camera data, you might want to use keyboard API from
 Put images in (cas)[calibration/png](calibration/png) folder. 
 Run [ss](calibration/calibration.py). You might want to read [OpenCV camera calibration tutorail](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html).
 
-###Running algorithm on drone
+### Running algorithm on drone
 
 Download weights from [102 MB](https://sppr.up.krakow.pl/uav/potentialobstacles/modelOK.h5)
 and put in [tello](tello) dir. 
@@ -51,11 +51,11 @@ Run [tello/DroneControllerTelloDepthDetectWarningClass.py](tello/DroneController
 
 Keys setup is in function "getKeyboardInput" in [tello/TelloDroneUtils.py](tello/TelloDroneUtils.py) script.
 
-###Generating video from recorded files
+### Generating video from recorded files
 
 Setup paths and use [tello/video_reader_depth_2.py](tello/video_reader_depth_2.py) script.
 
-##Example resutls on Tello drone
+## Example resutls on Tello drone
 
 ![alt text](image/001.gif) ![alt text](image/002.gif)
 ![alt text](image/003.gif) ![alt text](image/004.gif)
@@ -70,17 +70,17 @@ Bottom right - obstacles detection.
 If rectangle is green no obstacles on drone course are detected.
 If rectangle is red there are some obstacles on drone course.
 
-##Downloads
+## Downloads
 
 Doenload pre-trained weights on NYU Depth V2 dataset [102 MB](https://sppr.up.krakow.pl/uav/potentialobstacles/modelOK.h5)
 
 Download validation results as video files [825 MB](https://sppr.up.krakow.pl/uav/potentialobstacles/out_vid.zip) 
 
-##Cite as
+## Cite as
 
 TO BE ADDED.
 
-##Source code references
+## Source code references
 
 I have used parts of source codes from:
 

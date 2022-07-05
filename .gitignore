@@ -1,3 +1,3 @@
-./training/models/
+./training/models/*
 ./tello/modelOK.h5
-./tello/video/
+./tello/video/*
