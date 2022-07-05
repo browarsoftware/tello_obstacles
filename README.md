@@ -42,7 +42,7 @@ Run [calibration/calibration.py](calibration/calibration.py). You might want to 
 
 ### Running algorithm on drone
 
-Download weights from [102 MB](https://sppr.up.krakow.pl/uav/potentialobstacles/modelOK.h5)
+Download weights from [here](https://sppr.up.krakow.pl/uav/potentialobstacles/modelOK.h5)
 and put in [tello](tello) dir. 
 
 Connect WiFi to drone.
