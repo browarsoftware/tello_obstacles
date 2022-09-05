@@ -76,6 +76,10 @@ Doenload pre-trained weights on NYU Depth V2 dataset [102 MB](https://sppr.up.kr
 
 Download validation results as video files [825 MB](https://sppr.up.krakow.pl/uav/potentialobstacles/out_vid.zip) 
 
+## Full text
+
+https://www.mdpi.com/1424-8220/22/17/6703
+
 ## Cite as
 Hachaj, T. Potential Obstacle Detection Using RGB to Depth Image Encoder–Decoder Network: Application to Unmanned Aerial Vehicles. Sensors 2022, 22, 6703. https://doi.org/10.3390/s22176703 
 
