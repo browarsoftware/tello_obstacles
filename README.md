@@ -78,7 +78,19 @@ Download validation results as video files [825 MB](https://sppr.up.krakow.pl/ua
 
 ## Cite as
 
-TO BE ADDED.
+@Article{s22176703,<br />
+AUTHOR = {Hachaj, Tomasz},<br />
+TITLE = {Potential Obstacle Detection Using RGB to Depth Image Encoder&ndash;Decoder Network: Application to Unmanned Aerial Vehicles},<br />
+JOURNAL = {Sensors},<br />
+VOLUME = {22},<br />
+YEAR = {2022},<br />
+NUMBER = {17},<br />
+ARTICLE-NUMBER = {6703},<br />
+URL = {https://www.mdpi.com/1424-8220/22/17/6703},<br />
+ISSN = {1424-8220}<br />
+DOI = {10.3390/s22176703}<br />
+}
+
 
 ## Source code references
 
