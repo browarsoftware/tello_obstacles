@@ -12,6 +12,8 @@ Pretrained network weights are available to download.
 
 Keywords: Encoder-decoder network; Depth prediction; RGB to depth mapping; obstacles detection; Unmanned Aerial Vehicles; Deep neural network; Tello drone
 
+![qr](image/qr.png)
+
 ## Requirements
 
 Keras >= 2.8, Tensorflow >= 2.8
@@ -72,9 +74,9 @@ If rectangle is red there are some obstacles on drone course.
 
 ## Downloads
 
-Doenload pre-trained weights on NYU Depth V2 dataset [102 MB](https://sppr.up.krakow.pl/uav/potentialobstacles/modelOK.h5)
+Download pre-trained weights on NYU Depth V2 dataset [102 MB](tello/modelOK.h5)
 
-Download validation results as video files [825 MB](https://sppr.up.krakow.pl/uav/potentialobstacles/out_vid.zip) 
+Download validation results as video files [825 MB](https://home.agh.edu.pl/~thachaj/uav/potentialobstacles/out_vid.zip) 
 
 ## Full text
 
